@@ -1,15 +1,20 @@
 import React from "react";
-import ReactLogo from './logo_file/zero_waste.svg'
+import ReactLogo from './logo_file/logoZeroWaste.svg'
 
 import './Header.css';
 
 function Header() {
     
-    return <div className="main-page">
-       <img className="logo" src={ReactLogo} alt='logo' />
-       <div className="main-page-content">
-           <h1>Best Way to <span className="green">use</span> your Waste</h1>
-       </div>
+    return <div className="header">
+        <img className="logo" src={ReactLogo} alt='logo' />
+        <nav className="navigation-bar">
+            <ul>
+                <li className="nav-item"><a href="">About Us</a></li>
+                <li className="nav-item"><a href="">What we Do</a></li>
+                <li className="nav-item"><a href="">Contact Us</a></li>
+                <li className="nav-item"><a href="">Our Team</a></li>
+            </ul>
+        </nav>
     </div>
 }
 
