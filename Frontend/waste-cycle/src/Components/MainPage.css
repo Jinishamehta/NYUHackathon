@@ -17,6 +17,10 @@
     cursor: pointer;
 }
 
+.search-button:hover {
+    background-color: #c8c5c3;
+}
+
 .main-page-content {
     display: flex;
     justify-content: space-between;
