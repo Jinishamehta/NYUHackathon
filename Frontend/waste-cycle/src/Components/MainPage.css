@@ -15,6 +15,7 @@
     margin-left: 10vw;
     margin-top: 20px;
     cursor: pointer;
+    color: #000000;
 }
 
 .search-button:hover {
@@ -30,3 +31,9 @@
 .main-content-img {
     height: 350px;
 }
+
+.test-btn {
+    color: #000000;
+    background-color: #c8c5c3;
+}
+
