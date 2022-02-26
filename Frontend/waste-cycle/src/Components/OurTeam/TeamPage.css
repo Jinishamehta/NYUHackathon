@@ -1,0 +1,17 @@
+
+.team-page {
+    text-align: center;
+}
+
+.team-member {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 70vw;
+    margin: auto;
+    margin-top: 3rem;
+}
+
+.team-member-name {
+    font-size: 1rem;
+}
