@@ -1,0 +1,11 @@
+
+.about-page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-page-heading {
+    font-size: 2rem;
+    margin-top: 10rem;
+}

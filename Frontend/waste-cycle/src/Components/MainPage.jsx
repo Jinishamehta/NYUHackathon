@@ -2,6 +2,8 @@ import React from "react";
 import Header from './Header'
 import './MainPage.css'
 import image from '../images/mainPageImage.jpg'
+import Button from '@mui/material/Button';
+import About from './AboutPage/About'
 
 function MainPage() {
 
@@ -14,7 +16,7 @@ function MainPage() {
             </div>
             <img className="main-content-img" src={image} />
         </div>
-         
+        <About />
     </div>
 }
 
